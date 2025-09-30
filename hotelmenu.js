@@ -1,0 +1,23 @@
+let Hotel={};
+Hotel.breakfast=[{}, {}];
+Hotel.breakfast[0].foodname='idli';
+Hotel.breakfast[0].vareity=["podi idly","sambar idly"];
+Hotel.breakfast[0].price=[50,60];
+Hotel.breakfast[1].foodname='dosa';
+Hotel.breakfast[1].vareity=["podi dosa","mutta dosa","kal dosa"];
+Hotel.breakfast[1].price=[50,60,70];
+Hotel.lunch=[{},{}];
+Hotel.lunch[0].foodname="veg-meals";
+Hotel.lunch[0].vareity=["sambar-rice","curd-rice","lemon-rice"];
+Hotel.lunch[0].price=[40,50,60];
+Hotel.lunch[1].foodname="nonveg-meals";
+Hotel.lunch[1].vareity=["chicken-biriyani","mutton-biriyani"];
+Hotel.lunch[1].price=[150,250];
+Hotel.dinner=[{},{}]
+Hotel.dinner[0].foodname='parotta';
+Hotel.dinner[0].vareity=['kili-parotta','bun-parotta'];
+Hotel.dinner[0].price=[80,90];
+Hotel.dinner[1].foodname='pongal';
+Hotel.dinner[1].vareity=['blackpepper-pongsl','ghee-pongal'];
+Hotel.dinner[1].price=[70,80];
+console.log(Hotel);
